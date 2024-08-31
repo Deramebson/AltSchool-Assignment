@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALT School Application Form</title>
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+
+<body>
+    <!-- Header Section with Navigation -->
+    <header>
+        <nav>
+            <a href="index.html">About Me</a>
+            <a href="form.html">Application Form</a>
+            <a href="media.html">Media</a>
+            <a href="table.html">Table of Courses</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <div class="content-wrapper">
+            <!-- Image Section -->
+            <div class="image-section">
+                <img src="/assets/education.png" alt="ALT School" />
+                <p>Learn highly sought after skills without hassle.</p>
+                <div class="social-links">
+                    <a href="https://twitter.com/altschoolafrica"><img src="/assets/twitter.png" alt="Twitter"></a>
+                    <a href="https://instagram.com/altschoolafrica"><img src="/assets/instagram.png" alt="Instagram"></a>
+                    <a href="https://facebook.com/AltSchoolAfrica"><img src="/assets/facebook.png" alt="Facebook"></a>
+                    <a href="https://linkedin.com/school/altschoolafrica"><img src="/assets/linkedin.png" alt="LinkedIn"></a>
+                </div>
+                <p>Tel: 0800ALTSCHOOL</p>
+                <p>©2024 AltSchool Africa. All rights reserved.</p>
+            </div>
+
+            <!-- Form Section -->
+            <div class="form-section">
+                <h1>Signup</h1>
+                <p>Take the next steps to apply at AltSchool Africa.</p>
+
+                <form>
+                    <!-- First Name and Last Name -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name" placeholder="Enter first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" placeholder="Enter last name" required>
+                        </div>
+                    </div>
+                
+                    <!-- Gender and Date of Birth -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="gender">Gender:</label>
+                            <select id="gender" required>
+                                <option value="">Select gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth:</label>
+                            <input type="date" id="dob" required>
+                        </div>
+                    </div>
+                
+                    <!-- Email Address and Phone Number -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" placeholder="Enter email address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" placeholder="Enter phone number" required>
+                        </div>
+                    </div>
+                
+                    <!-- Country and State/City of Residence -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="country">Country:</label>
+                            <select id="country" required>
+                                <option value="">Select your country</option>
+                                <option value="nigeria">Nigeria</option>
+                                <option value="united-states">United States</option>
+                                <option value="united-kingdom">United Kingdom</option>
+                                <option value="canada">Canada</option>
+                                <option value="australia">Australia</option>
+                                <option value="india">India</option>
+                                <option value="germany">Germany</option>
+                                <option value="france">France</option>
+                                <option value="china">China</option>
+                                <option value="japan">Japan</option>
+                                <option value="brazil">Brazil</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="residence">State/City of Residence:</label>
+                            <input type="text" id="residence" placeholder="Enter your state of residence" required>
+                        </div>
+                    </div>
+                
+                    <!-- How did you hear about us? -->
+                    <div class="form-group">
+                        <label for="referral">How did you hear about us?</label>
+                        <select id="referral" required>
+                            <option value="">Select channel</option>
+                            <option value="twitter">Twitter</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="linkedin">LinkedIn</option>
+                            <option value="youtube">YouTube</option>
+                            <option value="whatsapp">WhatsApp</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="billboard">Billboard</option>
+                            <option value="sales-officers">Sales Officers</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                
+                    <!-- Password and Confirm Password -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" placeholder="Enter password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password:</label>
+                            <input type="password" id="confirm-password" placeholder="Enter password again" required>
+                        </div>
+                    </div>
+                
+                    <!-- Terms and Conditions -->
+                    <div class="form-group">
+                        <p>
+                            By clicking continue, I agree to <a href="#">Terms of Use</a> and acknowledge that I have read the <a href="#">Privacy Policy</a>.
+                        </p>
+                    </div>
+                
+                    <!-- Submit Button -->
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
